@@ -3,7 +3,7 @@ dbutils.fs.mkdirs("dbfs:/databricks/scripts/globalinit")
 
 # COMMAND ----------
 
-display(dbutils.fs.ls("dbfs:/databricks/scripts/globalinit/postgresql-install.sh"))
+display(dbutils.fs.ls("dbfs:/databricks/scripts/globalinit/"))
 
 # COMMAND ----------
 
