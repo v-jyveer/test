@@ -26,7 +26,7 @@ wget --quiet -O /mnt/jars/driver-daemon/postgresql-42.2.2.jar http://central.mav
 
 # COMMAND ----------
 
-display(dbutils.fs.ls("dbfs:/databricks/scripts/globalinit/"))
+display(dbutils.fs.ls("dbfs:/databricks/scripts/"))
 
 # COMMAND ----------
 
