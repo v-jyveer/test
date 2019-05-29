@@ -31,7 +31,3 @@ display(dbutils.fs.ls("dbfs:/databricks/scripts/globalinit/"))
 # COMMAND ----------
 
 dbutils.fs.ls ("dbfs:/cluster-logs/")
-
-# COMMAND ----------
-
-2+2
